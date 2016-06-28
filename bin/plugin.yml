@@ -1,0 +1,17 @@
+main: ch.gyselanimatioon.endlessworld.Main
+name: Endlessworld
+author: GyselAnimatioon
+version: 1.0
+
+commands:
+  cc:
+    usage: /cc
+    description: Leert den Chat.
+  ts:
+    usage: /ts
+    description: Zeigt die TS IP an.
+    
+permissions:
+  endlessworld.cc:
+    description: Rechte um den Chat zu leeren.
+    default: op
